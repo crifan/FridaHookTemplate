@@ -1,6 +1,6 @@
 # FridaHookTemplate
 
-* Update: `20241122`
+* Update: `20241211`
 
 ## Function
 
@@ -31,29 +31,29 @@ you can use this template for basic start of you using Frida to hook Android/iOS
 
 before use, copy/update latest frida util/hook code:
 
-* [js](https://github.com/crifan/crifanLib/blob/master/javascript/)
-  * [JsUtil.js](https://github.com/crifan/crifanLib/blob/master/javascript/JsUtil.js)
-* [Frida](https://github.com/crifan/crifanLib/blob/master/javascript/frida/)
-  * common
-    * Util
-      * [FridaUtil.js](https://github.com/crifan/crifanLib/blob/master/javascript/frida/FridaUtil.js)
-    * Hook
-      * Native
-        * [FridaHookNative.js](https://github.com/crifan/crifanLib/blob/master/javascript/frida/FridaHookNative.js)
-  * Android
-    * Util
-      * [FridaAndroidUtil.js](https://github.com/crifan/crifanLib/blob/master/javascript/frida/FridaAndroidUtil.js)
-    * Hook
-      * Java
-        * [FridaHookAndroidJava.js](https://github.com/crifan/crifanLib/blob/master/javascript/frida/FridaHookAndroidJava.js)
-      * Native
-        * [FridaHookAndroidNative.js](https://github.com/crifan/crifanLib/blob/master/javascript/frida/FridaHookAndroidNative.js)
-  * iOS
-    * Util
-      * [FridaiOSUtil.js](https://github.com/crifan/crifanLib/blob/master/javascript/frida/FridaiOSUtil.js)
-    * Hook
-      * Native
-        * [FridaHookiOSNative.js](https://github.com/crifan/crifanLib/blob/master/javascript/frida/FridaHookiOSNative.js)
+* [JsFridaUtil](https://github.com/crifan/JsFridaUtil/)
+  * [JsUtil.js](https://github.com/crifan/JsFridaUtil/blob/main/JsUtil.js)
+  * [Frida](https://github.com/crifan/JsFridaUtil/tree/main/frida)
+    * common
+      * Util
+        * [FridaUtil.js](https://github.com/crifan/JsFridaUtil/blob/main/frida/FridaUtil.js)
+      * Hook
+        * Native
+          * [FridaHookNative.js](https://github.com/crifan/JsFridaUtil/blob/main/frida/FridaHookNative.js)
+    * Android
+      * Util
+        * [FridaAndroidUtil.js](https://github.com/crifan/JsFridaUtil/blob/main/frida/FridaAndroidUtil.js)
+      * Hook
+        * Java
+          * [FridaHookAndroidJava.js](https://github.com/crifan/JsFridaUtil/blob/main/frida/FridaHookAndroidJava.js)
+        * Native
+          * [FridaHookAndroidNative.js](https://github.com/crifan/JsFridaUtil/blob/main/frida/FridaHookAndroidNative.js)
+    * iOS
+      * Util
+        * [FridaiOSUtil.js](https://github.com/crifan/JsFridaUtil/blob/main/frida/FridaiOSUtil.js)
+      * Hook
+        * Native
+          * [FridaHookiOSNative.js](https://github.com/crifan/JsFridaUtil/blob/main/frida/FridaHookiOSNative.js)
 
 into your frida js:
 
