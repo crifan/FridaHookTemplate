@@ -1,6 +1,6 @@
 # FridaHookTemplate
 
-* Update: `20241211`
+* Update: `20250718`
 
 ## Function
 
@@ -64,14 +64,27 @@ into your frida js:
 
 ```bash
 cd /Users/crifan/dev/dev_root/crifan/github/FridaHookTemplate/Android/frida
-
-frida -U -f com.app.package -l fridaHookAndroidSomeApp.js
 ```
 
-* Note:
-  * change `com.app.package` to your real android app package name
-* Effect
-  * ![frida_hook_android_app](./assets/img/frida_hook_android_app.png)
+then:
+
+* hook by name
+  ```bash
+  frida -U -l fridaHookAndroidSomeApp.js -f com.app.package
+  ```
+  * Note:
+    * change `com.app.package` to your real android app package name
+
+or:
+
+* hook via PID
+  ```bash
+  frida -U -l fridaHookAndroidSomeApp.js -p <PID>
+  ```
+
+-> Effect
+
+![frida_hook_android_app](./assets/img/frida_hook_android_app.png)
 
 ### Frida hook iOS
 
