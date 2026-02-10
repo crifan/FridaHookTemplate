@@ -1,6 +1,6 @@
 # FridaHookTemplate
 
-* Update: `20250718`
+* Update: `20260210`
 
 ## Function
 
@@ -74,6 +74,7 @@ then:
   ```
   * Note:
     * change `com.app.package` to your real android app package name
+      * cat get from `frida-ps -Uai`
 
 or:
 
